@@ -1,0 +1,4 @@
+function removeDuplicateWords (s) {
+  // your perfect code...
+ return s.split(' ').filter((el,id,arr) => arr.indexOf(el) == id).join(' ')
+}
